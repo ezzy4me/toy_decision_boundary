@@ -6,13 +6,13 @@ import numpy as np
 #####################
 from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
-from bart_dataset import IMDBDataset
+from bert_dataset import IMDBDataset
 #####################
 from transformers import AdamW
 from transformers import get_scheduler
 from transformers import BartTokenizer, BertTokenizer
 #####################
-from bart_model import TestModel 
+from bert_model import TestModel 
 from tqdm import tqdm
 #####################
 from torch.optim import AdamW
