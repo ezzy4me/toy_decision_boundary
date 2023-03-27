@@ -14,4 +14,6 @@ class IMDBDataset(Dataset):
         return data
 
     def __len__(self):
+        
+        # return 3000 # only 3000 samples
         return len(self.labels)
